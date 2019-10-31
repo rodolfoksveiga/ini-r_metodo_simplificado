@@ -164,7 +164,7 @@ cooling_real = c(cooling=(predict(nnetFit,df.env_real)))
 cooling_ref = c(cooling=(predict(nnetFit,df.env_ref)))
 
 #PHORAS
-load('phoras_model_rsquared_ 09402195.rna')
+load('phoras_model_mazzaferro.rna')
 #CONDI??O REAL
 phoras_real = c(phoras=(predict(nnetFit,df.env_real)))
 #CONDI??O DE REFER?NCIA
